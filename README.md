@@ -35,4 +35,4 @@ Beim Script handelt es sich um ein Converter mit Basic Functions.
 Folgenes wird beim Fehler passieren:
 
 - Bei einem Fehler innerhalb der Datei, wird die Datei nicht mehr berücksichtigt und sie wird übersprungen. Die Datei wird aber anhand einer *.TXT Datei gekennzeichnet.
-- Fehler mit Sonderzeichen können in einen Fehler fallen, welche noch nicht berücksichtigt wurde.
+- Fehler mit Sonderzeichen können in einen Fehler fallen, welche noch nicht berücksichtigt wurden.
