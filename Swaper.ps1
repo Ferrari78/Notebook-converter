@@ -43,7 +43,7 @@ function SmartNotebook2PDF
     ForEach ($page in $pages) {
         $n++
         Write-Host "Found $page, converting"
-        convert.exe  $storage2\$page ($dir + $page.replace('.svg','.pdf'))
+        convert.exe -density 300 $storage2\$page  -quality 100 ($dir + $page.replace('.svg','.pdf'))
     }
 
     if (!($pages.GetType().Name -eq 'String')) {
