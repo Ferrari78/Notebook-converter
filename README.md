@@ -22,7 +22,7 @@ Install-Module PSWritePDF -Force
 
 ### Installation von ImageMagick
 
-folgene sie den Anweisungen auf der Website [Der Windows Papst – IT Blog Walter](https://www.der-windows-papst.de/2021/08/25/convert-heic-to-jpg-png-powershell/)
+Folgen Sie den Anweisungen auf der Website [Der Windows Papst – IT Blog Walter](https://www.der-windows-papst.de/2021/08/25/convert-heic-to-jpg-png-powershell/)
 
 
 
@@ -34,5 +34,5 @@ Beim Script handelt es sich um ein Converter mit Basic Functions.
 
 Folgenes wird beim Fehler passieren:
 
-- Bei einem Fehler innerhalb der Datei wird die Datei nicht mehr berücksichtigt und sie wirdübersprungen. Die Datei wird aber anhand einer *.TXT Datei gekennzeichnet welche datei gehlerhaft sind.
-- Fehler mit Sonderzeichen können in einen Fehler fallen der noch nicht berücksichtigt wurde.
+- Bei einem Fehler innerhalb der Datei, wird die Datei nicht mehr berücksichtigt und sie wird übersprungen. Die Datei wird aber anhand einer *.TXT Datei gekennzeichnet.
+- Fehler mit Sonderzeichen können in einen Fehler fallen, welche noch nicht berücksichtigt wurden.
